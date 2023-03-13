@@ -4,4 +4,4 @@ def index(request):
     return render(request, 'pages/products/index.html')
 
 def view(request):
-    pass
+    return render(request, 'pages/products/view.html')
